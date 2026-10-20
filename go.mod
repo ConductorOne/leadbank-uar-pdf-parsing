@@ -1,6 +1,6 @@
 module github.com/conductorone/leadbank-uar-pdf-parsing
 
-go 1.22.0
+go 1.27.3
 
 require (
 	github.com/gen2brain/go-fitz v1.23.7
