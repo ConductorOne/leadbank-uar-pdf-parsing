@@ -67,10 +67,10 @@ ENV DEBIAN_FRONTEND=
 WORKDIR /go
 
 # Download and unpack the GO binary
-RUN wget https://golang.org/dl/go1.22.4.linux-amd64.tar.gz \
-    && tar -xvf go1.22.4.linux-amd64.tar.gz \
+RUN wget https://golang.org/dl/go1.27.3.linux-amd64.tar.gz \
+    && tar -xvf go1.27.3.linux-amd64.tar.gz \
     && mv go /usr/local \
-    && rm go1.22.4.linux-amd64.tar.gz
+    && rm go1.27.3.linux-amd64.tar.gz
 
 # Set env variables necessary for GO
 ENV GOROOT=/usr/local/go
